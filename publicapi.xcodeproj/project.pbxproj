@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7941BFDBD2C661A498642BC1 /* Pods_publicapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE08BA6744D36D1CB6CA6C9 /* Pods_publicapi.framework */; };
 		B93A0CAD2A9B60EA00180068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CAC2A9B60EA00180068 /* AppDelegate.swift */; };
 		B93A0CAF2A9B60EA00180068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CAE2A9B60EA00180068 /* SceneDelegate.swift */; };
 		B93A0CB12A9B60EA00180068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CB02A9B60EA00180068 /* ViewController.swift */; };
@@ -16,6 +17,11 @@
 		B93A0CC42A9B60EC00180068 /* publicapiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CC32A9B60EC00180068 /* publicapiTests.swift */; };
 		B93A0CCE2A9B60EC00180068 /* publicapiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CCD2A9B60EC00180068 /* publicapiUITests.swift */; };
 		B93A0CD02A9B60EC00180068 /* publicapiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CCF2A9B60EC00180068 /* publicapiUITestsLaunchTests.swift */; };
+		B93A0CDD2A9B612100180068 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CDC2A9B612100180068 /* GroupTableViewCell.swift */; };
+		B93A0CDF2A9B623A00180068 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CDE2A9B623A00180068 /* TableViewController.swift */; };
+		B93A0CE12A9B62A600180068 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93A0CE02A9B62A600180068 /* Group.swift */; };
+		F09B704FD1F10A3F05F2E65D /* Pods_publicapiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426CD24E02FEE3D9A85983FB /* Pods_publicapiTests.framework */; };
+		FEDA34F6D3F1190AAAD19FBC /* Pods_publicapi_publicapiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB94B781DD5A7F120D8C3950 /* Pods_publicapi_publicapiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132AF79371F27A95BF9FFDD7 /* Pods-publicapiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapiTests.release.xcconfig"; path = "Target Support Files/Pods-publicapiTests/Pods-publicapiTests.release.xcconfig"; sourceTree = "<group>"; };
+		16ECBC2DCBDD272571CB5B7A /* Pods-publicapiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapiTests.debug.xcconfig"; path = "Target Support Files/Pods-publicapiTests/Pods-publicapiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		317CD0127E34861C3D48EF66 /* Pods-publicapi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapi.debug.xcconfig"; path = "Target Support Files/Pods-publicapi/Pods-publicapi.debug.xcconfig"; sourceTree = "<group>"; };
+		426CD24E02FEE3D9A85983FB /* Pods_publicapiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_publicapiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77272A576CE3B273E9E13F78 /* Pods-publicapi-publicapiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapi-publicapiUITests.debug.xcconfig"; path = "Target Support Files/Pods-publicapi-publicapiUITests/Pods-publicapi-publicapiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE08BA6744D36D1CB6CA6C9 /* Pods_publicapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_publicapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A909B5FABB5E2F7DF92814FF /* Pods-publicapi-publicapiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapi-publicapiUITests.release.xcconfig"; path = "Target Support Files/Pods-publicapi-publicapiUITests/Pods-publicapi-publicapiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B93A0CA92A9B60EA00180068 /* publicapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = publicapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A0CAC2A9B60EA00180068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93A0CAE2A9B60EA00180068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		B93A0CC92A9B60EC00180068 /* publicapiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = publicapiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93A0CCD2A9B60EC00180068 /* publicapiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicapiUITests.swift; sourceTree = "<group>"; };
 		B93A0CCF2A9B60EC00180068 /* publicapiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = publicapiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B93A0CDC2A9B612100180068 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		B93A0CDE2A9B623A00180068 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B93A0CE02A9B62A600180068 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		E72F6E374E988A1CA6B0ADFC /* Pods-publicapi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-publicapi.release.xcconfig"; path = "Target Support Files/Pods-publicapi/Pods-publicapi.release.xcconfig"; sourceTree = "<group>"; };
+		EB94B781DD5A7F120D8C3950 /* Pods_publicapi_publicapiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_publicapi_publicapiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7941BFDBD2C661A498642BC1 /* Pods_publicapi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09B704FD1F10A3F05F2E65D /* Pods_publicapiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDA34F6D3F1190AAAD19FBC /* Pods_publicapi_publicapiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530F1B36BDB755F18922E749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BE08BA6744D36D1CB6CA6C9 /* Pods_publicapi.framework */,
+				EB94B781DD5A7F120D8C3950 /* Pods_publicapi_publicapiUITests.framework */,
+				426CD24E02FEE3D9A85983FB /* Pods_publicapiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD4468FCA425AEC1A01EF07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				317CD0127E34861C3D48EF66 /* Pods-publicapi.debug.xcconfig */,
+				E72F6E374E988A1CA6B0ADFC /* Pods-publicapi.release.xcconfig */,
+				77272A576CE3B273E9E13F78 /* Pods-publicapi-publicapiUITests.debug.xcconfig */,
+				A909B5FABB5E2F7DF92814FF /* Pods-publicapi-publicapiUITests.release.xcconfig */,
+				16ECBC2DCBDD272571CB5B7A /* Pods-publicapiTests.debug.xcconfig */,
+				132AF79371F27A95BF9FFDD7 /* Pods-publicapiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B93A0CA02A9B60EA00180068 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +128,8 @@
 				B93A0CC22A9B60EC00180068 /* publicapiTests */,
 				B93A0CCC2A9B60EC00180068 /* publicapiUITests */,
 				B93A0CAA2A9B60EA00180068 /* Products */,
+				9FD4468FCA425AEC1A01EF07 /* Pods */,
+				530F1B36BDB755F18922E749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +150,9 @@
 				B93A0CAE2A9B60EA00180068 /* SceneDelegate.swift */,
 				B93A0CB02A9B60EA00180068 /* ViewController.swift */,
 				B93A0CB22A9B60EA00180068 /* Main.storyboard */,
+				B93A0CE02A9B62A600180068 /* Group.swift */,
+				B93A0CDC2A9B612100180068 /* GroupTableViewCell.swift */,
+				B93A0CDE2A9B623A00180068 /* TableViewController.swift */,
 				B93A0CB52A9B60EC00180068 /* Assets.xcassets */,
 				B93A0CB72A9B60EC00180068 /* LaunchScreen.storyboard */,
 				B93A0CBA2A9B60EC00180068 /* Info.plist */,
@@ -134,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93A0CD32A9B60EC00180068 /* Build configuration list for PBXNativeTarget "publicapi" */;
 			buildPhases = (
+				274155BF93AFD5FCA21020B8 /* [CP] Check Pods Manifest.lock */,
 				B93A0CA52A9B60EA00180068 /* Sources */,
 				B93A0CA62A9B60EA00180068 /* Frameworks */,
 				B93A0CA72A9B60EA00180068 /* Resources */,
+				EFED6E4EAE30EDD1030BA55C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93A0CD62A9B60EC00180068 /* Build configuration list for PBXNativeTarget "publicapiTests" */;
 			buildPhases = (
+				9B25B7982CB8A8D3DFDCEA4C /* [CP] Check Pods Manifest.lock */,
 				B93A0CBB2A9B60EC00180068 /* Sources */,
 				B93A0CBC2A9B60EC00180068 /* Frameworks */,
 				B93A0CBD2A9B60EC00180068 /* Resources */,
@@ -169,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B93A0CD92A9B60EC00180068 /* Build configuration list for PBXNativeTarget "publicapiUITests" */;
 			buildPhases = (
+				B169076F4CA9648E5F783A28 /* [CP] Check Pods Manifest.lock */,
 				B93A0CC52A9B60EC00180068 /* Sources */,
 				B93A0CC62A9B60EC00180068 /* Frameworks */,
 				B93A0CC72A9B60EC00180068 /* Resources */,
+				FBF08425FB7DCE81BBB42860 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		274155BF93AFD5FCA21020B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-publicapi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B25B7982CB8A8D3DFDCEA4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-publicapiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B169076F4CA9648E5F783A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-publicapi-publicapiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFED6E4EAE30EDD1030BA55C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-publicapi/Pods-publicapi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-publicapi/Pods-publicapi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-publicapi/Pods-publicapi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF08425FB7DCE81BBB42860 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-publicapi-publicapiUITests/Pods-publicapi-publicapiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-publicapi-publicapiUITests/Pods-publicapi-publicapiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-publicapi-publicapiUITests/Pods-publicapi-publicapiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B93A0CA52A9B60EA00180068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +419,9 @@
 				B93A0CB12A9B60EA00180068 /* ViewController.swift in Sources */,
 				B93A0CAD2A9B60EA00180068 /* AppDelegate.swift in Sources */,
 				B93A0CAF2A9B60EA00180068 /* SceneDelegate.swift in Sources */,
+				B93A0CE12A9B62A600180068 /* Group.swift in Sources */,
+				B93A0CDF2A9B623A00180068 /* TableViewController.swift in Sources */,
+				B93A0CDD2A9B612100180068 /* GroupTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +593,7 @@
 		};
 		B93A0CD42A9B60EC00180068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 317CD0127E34861C3D48EF66 /* Pods-publicapi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +622,7 @@
 		};
 		B93A0CD52A9B60EC00180068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72F6E374E988A1CA6B0ADFC /* Pods-publicapi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +651,7 @@
 		};
 		B93A0CD72A9B60EC00180068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16ECBC2DCBDD272571CB5B7A /* Pods-publicapiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +672,7 @@
 		};
 		B93A0CD82A9B60EC00180068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 132AF79371F27A95BF9FFDD7 /* Pods-publicapiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +693,7 @@
 		};
 		B93A0CDA2A9B60EC00180068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77272A576CE3B273E9E13F78 /* Pods-publicapi-publicapiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +712,7 @@
 		};
 		B93A0CDB2A9B60EC00180068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A909B5FABB5E2F7DF92814FF /* Pods-publicapi-publicapiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

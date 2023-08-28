@@ -1,0 +1,6 @@
+framework module Pods_publicapi_publicapiUITests {
+  umbrella header "Pods-publicapi-publicapiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
